@@ -1,0 +1,95 @@
+
+.title{
+    flex: auto;
+        margin:30px;
+        width: 100%;
+}
+
+
+.contactDiv li{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 700;
+}
+.contactDiv{
+    margin: auto;
+    width: 70%;
+}
+.detail{
+    color: rgb(0, 91, 165);
+    font-weight: 500;
+}
+.detail a{
+    color: rgb(0, 91, 165);
+    font-weight: 500;
+}
+.detail a:hover{
+    color: rgb(74, 174, 255);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.contactDiv li{
+    background-color: rgba(30,170,255,0.2);
+}
+.DetailsContact li{
+    font-weight: 650;
+    font-size: 20px;
+    text-align: left;
+    margin-left: 50px;
+    padding-left: 100px;
+}
+
+.IconsList2 li{
+    display: inline;
+    font-size: 40px;
+    margin:5px;
+}
+.IconsList2 li:hover{
+    display: inline;
+    font-size: 40px;
+    margin:5px;
+    color: rgb(0, 91, 165);
+}
+.divContact{
+    margin:15px;
+}
+.cardContact .headDiv{
+    background-color: rgba(30,170,255,0.2);
+}
+
+#contactIcons li:hover{
+color:rgb(74, 174, 255)
+}
+
+.contactHead{
+    background-color: #e0eef9;
+    text-align: center;
+}
+.MessageBody textarea{
+    height: 140px;
+}
+.SendMessageContact{
+    margin-bottom: 100px;
+}
+
+@media only screen and (max-width: 600px) {
+    .SendMessageContact{
+        margin-bottom: 20px;
+    }
+    .DetailsContact{
+        margin-bottom: 60px;
+    }
+    .DetailsContact h4{
+        font-size: 16px;
+    }
+}
+
+@media only screen and (device-width: 768px) {
+    .SendMessageContact{
+        margin-top: 45px;
+    }
+    .DetailsContact{
+        margin-top: 45px;
+    }
+}

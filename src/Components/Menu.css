@@ -1,0 +1,84 @@
+
+.ProfilePicDiv img {
+  max-width: 220px;
+  max-height: 220px;
+  border-radius: 50%;
+  margin: 20px;
+  border: 1px solid;
+}
+.ProfilePicDiv {
+  text-align: center;
+}
+.ProfilePicDiv h3 {
+  font-size: 14px;
+  font-weight: 750;
+}
+.MenuUL li {
+  background-color: inherit;
+  padding-left: 40%;
+  display: block;
+  font-size: 14px;
+  border: none;
+}
+.MenuUL{
+    padding: 30px;
+    padding-right: 0px;
+}
+.MenuUL h4{
+   font-family: 'Raleway',sans-serif; font-size: 30px; font-weight: 800; line-height: 36px;
+
+}
+.MenuUL li {
+  position: relative;
+}
+.MenuUL li span {
+  position: absolute;
+  top: 5%;
+  left: 30%;
+  background-color: inherit;
+  font-size: 30px;
+  border: none;
+}
+
+.MenuUL li:hover {
+  color: white;
+  background-color: rgb(78, 161, 250);
+}
+
+.MenuUL a:hover {
+  text-decoration: none;
+}
+.MenuUL a {
+  font-weight: 600;
+  color: rgb(23, 55, 114);
+}
+.IconsList li {
+  display: inline;
+  font-size: 40px;
+  margin: 5px;
+}
+.IconsList li:hover {
+  display: inline;
+  font-size: 40px;
+  margin: 5px;
+  color: rgb(78, 161, 250);
+}
+
+.MenuUL {
+  text-align: left;
+}
+
+#MenuList {
+  padding-inline-start: 0px;
+}
+#iconsList{
+  padding-inline-start: 0px;
+}
+#iconsList a{
+  color:#000;
+}
+
+
+hr.new5 {
+  border-top: 2px solid rgba(189, 221, 255, 0.5);
+}

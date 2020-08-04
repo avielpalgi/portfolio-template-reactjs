@@ -1,0 +1,24 @@
+.title{
+    flex: auto;
+        margin:30px;
+        width: 100%;
+}
+.title h2{
+    margin: 1em 0 0.5em 0;
+	color: #343434;
+	font-weight: bold;
+	font-family: 'Ultra', sans-serif;   
+	font-size: 36px;
+	line-height: 42px;
+	text-transform: uppercase;
+    text-shadow: 2px 2px 7px rgba(30,20,20,0.72);}
+.AboutDiv{
+    text-align: left;
+    padding-left: 100px;
+}
+.progressDiv{
+    margin:auto;
+}
+.aboutContainer{
+    margin-bottom: 50px;
+}

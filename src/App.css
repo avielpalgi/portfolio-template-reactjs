@@ -1,0 +1,71 @@
+.App {
+  overflow-y: scroll;
+  text-align: center;
+  position: fixed;
+    padding: 0;
+    margin: 0;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(255,255,255,0.5);
+}
+.App .row{
+height: 100%;
+}
+#Menu{
+  position: relative;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: rgba(145, 209, 255, 0.6);
+  box-shadow: 0 0.125rem 9.375rem rgba(90, 97, 105, 0.1),
+  0 0.25rem 0.5rem rgba(90, 97, 105, 0.12),
+  0 0.9375rem 1.375rem rgba(90, 97, 105, 0.1),
+  0 0.4375rem 2.1875rem rgba(165, 182, 201, 0.1);
+  /* float: left; */
+}
+#ProfileDetails{
+  padding-left: 0px;
+  background: rgb(255,255,255);
+
+  background: linear-gradient(65deg, rgba(255,255,255,0.02891578994879207) 0%, rgba(196,236,255,0.42667489359024857) 85%, rgba(114,201,255,0.7011846975118172) 100%);
+  /* float: right; */
+  /* text-align: center; */
+}
+.custom-control.custom-switch{ padding-left: 0px;}
+
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
